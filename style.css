@@ -87,9 +87,25 @@
     margin: 50px 100px;
     width: 400px;
 }
+
+.ex-9-img:hover  {
+    transition: 3s;
+    filter: grayscale(.6) blur(.12px);
+    border-radius: 30px;
+    scale: 1.5;
+}
+
 .ex-10-icon {
     font-size: 60px;
+    animation: charged 1s linear infinite;
 }
+
+@keyframes charged {
+    0% {
+        transform: rotate(1turn);
+    }
+}
+
 .ex-11-icon {
     font-size: 60px;
 }
